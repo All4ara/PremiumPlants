@@ -346,8 +346,9 @@ header {
 /* Doctor Page */
 /* Dispo Page */
 .doc-list {
+    width: 100%;
     background-color: rgb(203, 204, 206);
-    margin: 1rem 4rem;
+    margin: 1rem 0;
     border: 4px solid #00ee93;
     border-radius: 10%;
 }
