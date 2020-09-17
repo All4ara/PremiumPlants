@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins' , sans-serif;
+    color: #222;
+}
+
+header {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
+
+/* MAIN */
+.bud-logo {
+    width: 4rem;
+}
+
+.navbar {
+    padding: 0;
+    background-color: #00ee93;
+}
+
+.navbar-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+  
+.navbar-nav li {
+    padding-right: 20px;
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 40rem;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-40%);
+}
+
+.carousel-caption h3 {
+    font-size: 300%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption p {
+    font-size: 150%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.padding {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.circle-display {
+    padding: 7rem;
+    width: 13rem;
+    height: 13rem;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+.strian-img {
+    background: url(https://img1.wsimg.com/isteam/ip/1da092ad-f96c-48b4-b0a5-988a64e66f70/Farm%20pics-48-0001.jpg/:/rs=w:1300,h:800);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wax-img {
+    background: url(https://precisionextraction.com/wp-content/uploads/2018/05/image1.jpeg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topical-img {
+    background: url(https://cdn.thegreenfund.com/wordpress/wp-content/uploads/2020/04/cbd-cream-510x390.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-btn {
+    width: 30%;
+    height: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 3px solid #000;
+    border-radius: 20px;
+    background-color: #00ee93;
+}
+
+.dark-back {
+    background-color: #ccc;
+}
+
+.test-section h3 {
+    color: steelblue;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.test-section p {
+    color: #118a5ca2;
+    margin: 1rem 5rem;
+    font-weight: bold;
+}
+
+.test-section button {
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border: 3px solid steelblue;
+    border-radius: 30%;
+    color: white;
+    background-color: rgb(11, 88, 11);
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.7);
+}
+
+.test-section button:hover,
+.test-section button:active {
+    color: white;
+    background-color: rgb(75, 128, 75);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7);
+    position: relative;
+    left: .5rem;
+    top: .5rem;
+}
+
+.contact-img {
+    color: white;
+    
+    background: url('https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB16vfTT.img?h=0&w=600&m=6&q=60&u=t&o=f&l=f');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.veteran-img {
+    color: white;
+    background: url('https://us.123rf.com/450wm/stanislauv/stanislauv1610/stanislauv161000010/65075819-american-flag-wooden-background-the-flag-of-the-united-states-of-america-the-place-to-advertise-temp.jpg?ver=6');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.faqs-img {
+    color: white;
+    background: url('https://cdn.searchenginejournal.com/wp-content/uploads/2018/09/25-of-the-Best-Examples-of-Effective-FAQ-Pages-1520x800.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.features h1 {
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+
+.features h3 {
+    font-size: 1rem;
+}
+
+.features button {
+    width: 60%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(78, 170, 78);
+    border: 1px solid rgb(4, 158, 4);
+    border-radius: 20px;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.7);
+}
+
+.features button:hover {
+    background-color: rgb(58, 126, 58);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7);
+    position: relative;
+    left: .5rem;
+    top: .5rem;
+}
+
+
+.teal-back {
+    background-color: teal;
+    color: white;
+    padding-bottom: 0;
+}
+
+.footer-list {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#leafly {
+    width: 20%;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+}
+
+/* Shop */
+.page-title {
+    margin: 9rem 0 2rem 0;
+    padding: 3rem;
+    color: white;
+    background: url(http://greenleafcomp.wpengine.com/wp-content/uploads/2016/06/blur-header2.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shop-menu-btn {
+    width: 100%;
+    height: 14rem;
+    font-size: 2rem;
+    font-weight: 500;
+    border: 4px solid #00ee93a2;
+}
+
+.shop-menu-btn:hover {
+    color: white;
+    border: 6px solid #02be76a2;
+}
+
+.flower-img {
+    background-image: url(https://www.cannabisbusinesstimes.com/fileuploads/image/2018/08/marijuana%20plant4.jpg?w=736&h=414&mode=crop);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wax-img {
+    background-image: url(https://leafly-cms-production.imgix.net/wp-content/uploads/2017/06/28153723/hash-oil.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.cream-img {
+    background-image: url(https://bloomarkansas.com/app/default/assets/images/8460371db337f8d6cc73ff5095eb37cd.jpg?v=1559676132);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Menu Items */
+.card {
+    width: 100%;
+    padding: 4rem;
+    border: 2px solid rgb(73, 172, 126);
+    box-shadow: 2px 2px 10px 0 rgb(109, 241, 180);
+}
+
+/* Test Page */
+.search-bar {
+    width: 50%;
+    height: 4rem;
+    border: 2px solid rgb(80, 255, 153);
+    border-radius: 10%;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+}
+
+.search-btn {
+    width: 20%;
+    height: 4rem;
+    border: 2px solid rgb(80, 255, 153);
+    border-radius: 20%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: steelblue;
+    box-shadow: 5px 5px 5px rgba(80, 255, 153, 0.7);
+}
+
+.search-btn:hover,
+.search-btn:active {
+    color: rgb(80, 255, 153);
+    border-color: steelblue;
+    box-shadow: 0px 0px 0px;
+}
+
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: steelblue;
+}
+
+.green-text {
+    color: #01c77b;
+}
+
+.vet-promo {
+    height: 25rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    background: url(https://us.123rf.com/450wm/stanislauv/stanislauv1610/stanislauv161000010/65075819-american-flag-wooden-background-the-flag-of-the-united-states-of-america-the-place-to-advertise-temp.jpg?ver=6);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vet-promo h1, h5 {
+    margin: 3rem 0;
+    color: white;
+}
+
+
+.vet-btn {
+    padding: 1rem;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    color: red;
+    border: 4px solid blue;
+    border-radius: 10%;
+}
+
+/* Doctor Page */
+/* Dispo Page */
+.doc-list {
+    background-color: rgb(203, 204, 206);
+    margin: 1rem 4rem;
+    border: 4px solid #00ee93;
+    border-radius: 10%;
+}
+
+.doc-img {
+    width: 100%;
+    height: 15rem;
+}
+
+.doc-info ul {
+    list-style: none;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 30rem;
+    }
+    .carousel-caption {
+        top: 50%;
+    }
+    .carousel-caption h3 {
+        font-size: 200%;
+    }
+    .carousel-caption p {
+        font-size: 110%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+    .menu-btn {
+        width: 50%; 
+    }
+    .features button {
+        width: 50%;
+    }
+}
+
+@media (max-width: 567px) {
+    .carousel-inner img {
+        height: 20rem;
+    }
+    .carousel-caption {
+        top: 50%;
+    }
+    .carousel-caption h3 {
+        font-size: 170%;
+    }
+    .carousel-caption p {
+        font-size: 90%;
+    }
+    .menu-btn {
+        width: 60%; 
+    }
+    .features button {
+        width: 50%;
+    }
+}
+/*---Firefox Bug Fix --*/
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+  /*--- Fixed Background Image --*/
+  figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0!important;
+  }
+  .fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #fixed {
+    background-image: url('img/farm.jpg');
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+  }
+  /*--- Bootstrap Padding Fix --*/
+  [class*="col-"] {
+      padding: 1rem;
+  }
