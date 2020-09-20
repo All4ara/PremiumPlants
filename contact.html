@@ -14,7 +14,7 @@
 </head>
 <body>
 
-    <!-- Navigation -->
+<!-- Navigation -->
     <header>
         <nav class="navbar navbar-expand-md navbar-light sticky-top">
             <div class="container-fluid">
@@ -24,7 +24,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto text-right">
                         <li class="nav-item">
                             <a class="nav-link" href="doctors.html">Doctors</a>
                         </li>
@@ -52,9 +52,60 @@
                 </div>
             </div>
         </div>
+
+        <div class="container-fluid">
+            <div class="row padding">
+                <div class="col-xs-11 col-sm-11 col-md-8 col-lg-8 col-xl-8 form-info">
+                    <h1>Questions/Comments</h1>
+                    <h4>Please fill out the form below for any questions</h4>
+                    <label for="name">*Name</label>
+                    <br>
+                    <input type="text" id="name" required>
+                    <br>
+                    <label for="email">*Email</label>
+                    <br>
+                    <input type="text" id="email" required>
+                    <br>
+                    <label for="subject">*Subject</label>
+                    <br>
+                    <input type="subject" id="subject" required>
+                    <br>
+                    <label for="message">*Message</label>
+                    <br>
+                    <textarea id="message" name="message" rows="8" cols="50"></textarea>
+                    <div>
+                        <button class="contact-btn">Submit</button>
+                    </div>
+                </div>
+
+                <div class="col-xs-11 col-sm-11 col-md-4 col-lg-4 col-xl-4">
+                    <div class="col-12 side-bar">
+                        <h1>HAVE SOME QUESTIONS?</h1>
+                        <p>Check out our comprehensive FAQ section, where you will be able to find many of the answers you’re looking for.</p>
+                        <a href="faqs.html"><button class="contact-btn">VIEW FAQS</button></a>
+                    </div>
+                    <div class="col-12 side-bar">
+                        <h1>Premium Plants</h1>
+                        <p>
+                        395 Bloomfield Ave
+                        <br>
+                        Montclair NJ 07042
+                        <br>
+                        973.337.5670
+                        </p>
+                        <a href="map.html"><button class="contact-btn">VIEW MAP</button></a>
+                    </div>
+                    <div class="col-12 side-bar">
+                        <h1>PARKING & TRANSPORTATION</h1>
+                        <p>Montclair offers several public parking facilities near Greenleaf Compassion Center.</p>
+                        <p>Montclair is easily accessible via public transportation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     
-    <!--- Footer -->
+<!--- Footer -->
     <footer>
         <div class="container-fluid">
             <div class="row padding teal-back">
@@ -62,7 +113,7 @@
                     <h3>Premium Plants</h3>
                     <h5>A Florida licensed medical cannabis provider.</h5>
                     <p class="text">Sign up for daily deals & new product updates!</p>
-                    <input type="email" name="email" id="email" placeholder="Email Address">
+                    <input type="email" name="email" id="" placeholder="Email Address">
                     <button type="submit">Submit</button>
                     <br>
                     <br>
