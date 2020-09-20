@@ -230,13 +230,17 @@ footer a {
 footer a:hover {
     color: rgb(247, 166, 220);
    
-  }
+}
 
 #leafly {
     width: 20%;
     position: relative;
     top: 2rem;
     left: 1rem;
+}
+.app img {
+    width: 12rem;
+    margin: 1rem 0;
 }
 
 /* Shop */
@@ -568,6 +572,13 @@ footer a:hover {
 }
 /*---Media Queries --*/
 @media (max-width: 992px) {
+    .bud-logo {
+        width: 3rem;
+    }
+    .navbar-name {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
     .page-container {
         height: 108rem;
     }
@@ -581,7 +592,15 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
+    .bud-logo {
+        width: 3rem;
+    }
+    .navbar-name {
+        font-size: 1rem;
+        font-weight: bold;
+    }
     .navbar-toggler {
+        background-color: rgb(80, 147, 201);
         transform: scale(.7);
     }
     .carousel-inner img {
@@ -643,6 +662,16 @@ footer a:hover {
 }
 
 @media (max-width: 567px) {
+    .bud-logo {
+        width: 4rem;
+    }
+    .navbar-name {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .navbar-toggler {
+        transform: scale(.8);
+    }
     .carousel-inner img {
         height: 20rem;
     }
