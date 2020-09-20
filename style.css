@@ -402,7 +402,8 @@ footer a:hover {
 .flip-card-container {
     width: 31.25rem;
     height: 18.75rem;
-    perspective: 5000px;
+    -webkit-perspective: 900000px;
+    perspective: 900000px;
     justify-content: center;
 }
 
