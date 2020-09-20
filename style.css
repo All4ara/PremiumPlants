@@ -395,13 +395,13 @@ footer a:hover {
 
 /* Hardware Page */
 .page-container {
-    height: 102rem;
+    height: 135rem;
     display: flex;
     justify-content: center;
 }
 .flip-card-container {
-    width: 100%;
-    height: 18.75rem;
+    width: 50.25rem;
+    height: 24.75rem;
     perspective: 5000px;
     justify-content: center;
 }
@@ -567,7 +567,16 @@ footer a:hover {
 }
 /*---Media Queries --*/
 @media (max-width: 992px) {
-    
+    .page-container {
+        height: 108rem;
+    }
+    .flip-card-container {
+        width: 35.25rem;
+        height: 18.75rem;
+    }
+    .app img {
+        width: 10rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -628,7 +637,7 @@ footer a:hover {
         font-size: 1rem;
     }
     .app img {
-        width: 10rem;
+        width: 8rem;
     }
 }
 
