@@ -32,6 +32,17 @@ header {
     font-size: 1.2rem;
 }
 
+.nav-link.active {
+    color: white !important;
+}
+.nav-link.active:hover {
+    color: steelblue !important;
+}
+
+.nav-link:hover {
+  color: rgb(247, 166, 220) !important;
+}
+
 .nav-link {
     font-size: 1.1em !important;
 }
@@ -212,6 +223,14 @@ header {
     list-style: none;
     font-size: 1.5rem;
 }
+footer a {
+  color: #00ee93;
+  text-decoration: none;
+}
+footer a:hover {
+    color: rgb(247, 166, 220);
+   
+  }
 
 #leafly {
     width: 20%;
@@ -499,6 +518,43 @@ header {
     border-radius: 40px;
     padding: 1rem;
 }
+
+/*---FAQS --*/
+.general-q h1 {
+    font-size: 3rem;
+}
+.general-q p {
+    margin: 0 2rem;
+    font-size: 2rem;
+}
+.faqs-q button {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+.dark {
+    background-color: teal;
+}
+
+.light {
+    background-color: turquoise;
+}
+.faqs-q button:hover,
+.faqs-q button:active {
+    background-color: rgba(84, 187, 177, 0.733);
+}
+.answers {
+    margin: 0 2rem;
+}
+.answers h2 {
+    font-size: 2rem;
+}
+.answers p {
+    font-size: 1.3rem;
+}
 /*---Media Queries --*/
 @media (max-width: 992px) {
     
@@ -548,6 +604,22 @@ header {
         border-right: 2px solid rgb(255, 255, 255);
         border-bottom: 2px solid black;;
     }
+    .general-q h1 {
+        font-size: 2rem;
+    }
+    .general-q p {
+        margin: 0 1rem;
+        font-size: 1.6rem;
+    }
+    .answers h2 {
+        font-size: 1.5rem;
+    }
+    .answers p {
+        font-size: 1rem;
+    }
+    .app img {
+        width: 10rem;
+    }
 }
 
 @media (max-width: 567px) {
@@ -588,6 +660,22 @@ header {
     .form-info {
         border-right: 2px solid rgb(255, 255, 255);
         border-bottom: 2px solid black;;
+    }
+    .general-q h1 {
+        font-size: 1.5rem;
+    }
+    .general-q p {
+        margin: 0 1rem;
+        font-size: 1rem;
+    }
+    .answers h2 {
+        font-size: 1.2rem;
+    }
+    .answers p {
+        font-size: .8rem;
+    }
+    .answers li {
+        font-size: .8rem;
     }
 }
 /*---Firefox Bug Fix --*/
