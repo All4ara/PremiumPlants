@@ -429,18 +429,28 @@ footer a:hover {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    -webkit-backface-visibility: hidden;
+         backface-visibility: hidden;
+    -webkit-transition: 0.6s;
+            transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
 }
 
 .flip-card-front {
     background-color: teal;
     color: rgb(235, 66, 226);
-
+    z-index: 2;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
 }
 
 .flip-card-back {
     background-color: rgba(21, 202, 202, 0.815);
     color: white;
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(-180deg);
+         transform: rotateY(-180deg);
 }
 
 .flip-card-back p {
