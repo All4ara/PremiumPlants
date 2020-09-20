@@ -590,6 +590,101 @@ footer a:hover {
 .answers p {
     font-size: 1.3rem;
 }
+/*---Promos --*/
+.promo-container {
+    height: 80rem;
+    display: flex;
+    justify-content: center;
+}
+
+.flip-card-promo-container {
+    width: 50.25rem;
+    height: 24.75rem;
+    perspective: 5000px;
+    justify-content: center;
+}
+
+.flip-card-promo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2rem;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-promo:hover {
+    transform: rotateX(180deg);
+}
+
+.flip-card-front-promo,
+.flip-card-back-promo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    -webkit-backface-visibility: hidden;
+         backface-visibility: hidden;
+    -webkit-transition: 0.6s;
+            transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+
+.flip-card-front-promo {
+    background-color: teal;
+    color: rgb(235, 66, 226);
+    z-index: 2;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+}
+
+.flip-card-back-promo {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(21, 202, 202, 0.815);
+    color: white;
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(-180deg);
+         transform: rotateX(-180deg);
+}
+.flip-card-back-promo h3 {
+    color: steelblue;
+}
+.flip-card-back-promo p {
+    font-size: 1.2rem;
+    margin: 0 2rem;
+}
+
+.promo1 {
+    background: url('https://www.usnews.com/dims4/USNEWS/0257aa4/2147483647/thumbnail/640x420/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F15%2Faa%2F9392c839402bae54aba700e8e838%2F181019-marijuanamoney-stock.jpg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promo2 {
+    background: url('https://maryandmain.com/wp-content/uploads/2018/03/Maryland-Medical-Marijuana-Dispensaries.jpg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promo3 {
+    background: url('https://cannapayservices.com/wp-content/uploads/2019/10/CPS_-_Cannabis_Credit_Card_Processing-min-1280x720.jpg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promo-info {
+    color: red;
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
     .bud-logo {
@@ -606,6 +701,13 @@ footer a:hover {
         height: 108rem;
     }
     .flip-card-container {
+        width: 35.25rem;
+        height: 18.75rem;
+    }
+    .promo-container {
+        height: 65rem;
+    }
+    .flip-card-promo-container {
         width: 35.25rem;
         height: 18.75rem;
     }
@@ -655,15 +757,26 @@ footer a:hover {
     .details-heading {
         font-size: 2.5rem;
     }
-    .flip-card-container {
-        width: 25rem;
-        height: 12.5rem; 
-    }
     .page-container {
         height: 74rem;
     }
     .flip-card-back p {
         font-size: 1rem;
+    }
+    .promo-container {
+        height: 48rem;
+    }
+    .flip-card-promo-container {
+        height: 14.75rem;
+    }
+    .flip-card-back-promo h4 {
+        font-size: 1rem;
+    }
+    .flip-card-back-promo h3 {
+        font-size: 1.2rem;
+    }
+    .flip-card-back-promo p {
+        font-size: .8rem;
     }
     .form-info {
         border-right: 2px solid rgb(255, 255, 255);
@@ -718,6 +831,12 @@ footer a:hover {
     }
     .page-title {
         font-size: 1.2rem;
+    }
+    .promo-container {
+        height: 42rem;
+    }
+    .flip-card-promo-container {
+        height: 10.75rem;
     }
     .details-heading {
         font-size: 2rem;
