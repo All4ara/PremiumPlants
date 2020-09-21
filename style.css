@@ -685,6 +685,28 @@ footer a:hover {
     color: red;
 }
 
+/*--- Game --*/
+.container-3 {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-rps {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-box-rps img {
+    border-radius: 50%;
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px #00ee93;
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
     .bud-logo {
