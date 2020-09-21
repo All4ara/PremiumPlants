@@ -776,11 +776,14 @@ footer a:hover {
     .page-title {
         font-size: 2rem;
     }
+    .page-container {
+        height: 104rem;
+    }
     .details-heading {
         font-size: 2.5rem;
     }
     .page-container {
-        height: 74rem;
+        height: 104rem;
     }
     .flip-card-back p {
         font-size: 1rem;
