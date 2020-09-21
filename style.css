@@ -854,6 +854,9 @@ footer a:hover {
     .page-title {
         font-size: 1.2rem;
     }
+    .page-container {
+        height: 104rem;
+    }
     .promo-container {
         height: 42rem;
     }
