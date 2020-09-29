@@ -101,12 +101,20 @@ header {
     padding-bottom: 3rem;
 }
 
+.circle-div h2 {
+    margin-top: 1rem;
+}
+
 .circle-display {
     padding: 7rem;
     width: 13rem;
     height: 13rem;
     border: 5px solid black;
     border-radius: 50%;
+}
+
+.circle-display:hover {
+    border: 5px solid #00ee93;
 }
 
 .strian-img {
@@ -308,6 +316,134 @@ footer a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Flower */
+.flower-heading {
+    margin-top: 5rem;
+}
+
+.vc_row[data-vc-full-width] {
+    -webkit-transition: opacity .5s ease;
+    -o-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+    overflow: hidden;
+}
+
+div {
+    display: block;
+}
+
+.woodmart-parallax {
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+
+.strain1 {
+    padding-top: 17vh !important;
+    padding-bottom: 17vh !important;
+    background-image: url(http://westcoastvape.co/wp-content/uploads/2020/03/super-silver-haze-bg.jpg?id=8771) !important;
+}
+
+.strain2 {
+    padding-top: 17vh !important;
+    padding-bottom: 17vh !important;
+    background-image: url(https://i.fbcd.co/products/resized/resized-750-500/84b6ab3eaf40b73e159de90ce28db97baf64db187ce2cf157dbabcb762dadca9.jpg) !important;
+}
+
+.strain3 {
+    padding-top: 17vh !important;
+    padding-bottom: 17vh !important;
+    background-image: url(http://westcoastvape.co/wp-content/uploads/2020/03/pineapple-jack-bg.jpg?id=8778) !important;
+}
+
+.strain4 {
+    padding-top: 17vh !important;
+    padding-bottom: 17vh !important;
+    background-image: url(http://westcoastvape.co/wp-content/uploads/2019/10/blue-dream-bg.jpg?id=2868) !important;
+}
+
+.strain-info {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: #70fde6;
+}
+
+.btn.btn-color-white {
+    background-color: #FFF;
+    color: #333;
+}
+.btn.btn-color-white {
+    background-color: #FFF;
+    color: #333;
+}
+.btn.btn-color-white:hover {
+    background-color: #00ee93;
+    color: #333;
+}
+.btn-size-default {
+    padding: 12px 20px;
+    font-size: 13px;
+    line-height: 18px;
+}
+.btn, .button, .added_to_cart, [type="submit"], [type="button"] {
+    padding: 12px 20px;
+    font-size: 13px;
+    line-height: 18px;
+    background-color: #F3F3F3;
+    color: #3E3E3E;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-width: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: none;
+    letter-spacing: .3px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color .25s ease, background-color .25s ease, border-color .25s ease, box-shadow .25s ease, opacity .25s ease;
+}
+.btn-size-default {
+    padding: 12px 20px;
+    font-size: 13px;
+    line-height: 18px;
+}
+.added_to_cart, .btn, .button, [type=button], [type=submit] {
+    padding: 12px 20px;
+    font-size: 13px;
+    line-height: 18px;
+    background-color: #F3F3F3;
+    color: #3E3E3E;
+    position: relative;
+    display: inline-block;
+    outline: 0;
+    border-width: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: none;
+    letter-spacing: .3px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color .25s ease,background-color .25s ease,border-color .25s ease,box-shadow .25s ease,opacity .25s ease;
+}
+.flower-heading a {
+    color: #3f3f3f;
+    text-decoration: none;
+    transition: all .25s ease;
+}
+
 
 /* Menu Items */
 .card {
@@ -767,6 +903,14 @@ footer a:hover {
         font-weight: 400;
         padding-bottom: .2rem;
     }
+    .circle-display {
+        padding: 4rem;
+        width: 5rem;
+        height: 5rem;
+    }
+    .circle-div h2 {
+        font-size: 1.5rem;
+    }
     .menu-btn {
         width: 50%; 
     }
@@ -848,6 +992,7 @@ footer a:hover {
     .carousel-caption p {
         font-size: 90%;
     }
+    
     .menu-btn {
         width: 60%; 
     }
