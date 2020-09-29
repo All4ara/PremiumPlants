@@ -318,10 +318,14 @@ footer a:hover {
 }
 
 /* Flower */
-.flower-heading {
-    margin-top: 5rem;
+#strains {
+    position: relative; 
+    left: 0px; 
+    box-sizing: border-box; 
+    width: 100%; 
+    padding-left: 0px; 
+    padding-right: 0px;
 }
-
 .vc_row[data-vc-full-width] {
     -webkit-transition: opacity .5s ease;
     -o-transition: opacity .5s ease;
@@ -329,9 +333,6 @@ footer a:hover {
     overflow: hidden;
 }
 
-div {
-    display: block;
-}
 
 .woodmart-parallax {
     background-attachment: fixed !important;
@@ -362,29 +363,31 @@ div {
     background-image: url(http://westcoastvape.co/wp-content/uploads/2019/10/blue-dream-bg.jpg?id=2868) !important;
 }
 
+.strain-type {
+    font-size: 24px;
+    color: steelblue;
+    line-height: 1.4;
+    font-family:'Poppins';
+    font-weight:900;
+    font-style:normal
+}
+
 .strain-info {
     margin: 1rem;
     font-size: 1.5rem;
     color: #70fde6;
 }
 
+
 .btn.btn-color-white {
     background-color: #FFF;
-    color: #333;
-}
-.btn.btn-color-white {
-    background-color: #FFF;
-    color: #333;
+    color: rgb(9, 156, 66);
 }
 .btn.btn-color-white:hover {
     background-color: #00ee93;
-    color: #333;
+    color: rgb(255, 166, 0);
 }
-.btn-size-default {
-    padding: 12px 20px;
-    font-size: 13px;
-    line-height: 18px;
-}
+
 .btn, .button, .added_to_cart, [type="submit"], [type="button"] {
     padding: 12px 20px;
     font-size: 13px;
@@ -409,11 +412,7 @@ div {
     cursor: pointer;
     transition: color .25s ease, background-color .25s ease, border-color .25s ease, box-shadow .25s ease, opacity .25s ease;
 }
-.btn-size-default {
-    padding: 12px 20px;
-    font-size: 13px;
-    line-height: 18px;
-}
+
 .added_to_cart, .btn, .button, [type=button], [type=submit] {
     padding: 12px 20px;
     font-size: 13px;
@@ -437,11 +436,6 @@ div {
     font-weight: 600;
     cursor: pointer;
     transition: color .25s ease,background-color .25s ease,border-color .25s ease,box-shadow .25s ease,opacity .25s ease;
-}
-.flower-heading a {
-    color: #3f3f3f;
-    text-decoration: none;
-    transition: all .25s ease;
 }
 
 
