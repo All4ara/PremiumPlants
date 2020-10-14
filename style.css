@@ -15,6 +15,7 @@ header {
 /* MAIN */
 .bud-logo {
     width: 4rem;
+    color: black;
 }
 
 .navbar {
@@ -613,7 +614,7 @@ footer a:hover {
 }
 
 .cannabutter {
-    background: url(https://levooil.com/app/uploads/2018/08/LEVO-II-Dispense-1800x1260.jpg);
+    background: url(https://herb-platform-images.imgix.net/wp-content/uploads/2019/08/20095817/Screen-Shot-2017-09-28-at-4.11.15-PM-copy.jpg?auto=format&fit=clip&q=60&ixlib=react-8.6.4&w=768);
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -627,7 +628,7 @@ footer a:hover {
 }
 
 .grinder {
-    background: url(https://cdn.thewirecutter.com/wp-content/uploads/2017/10/marijuana-grinder-2x1-lowres-9493.jpg);
+    background: url(https://homegrowncannabisco.com/blog/wp-content/uploads/2019/11/What-Are-The-Best-Herb-Grinders-For-Cannabis.jpg);
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
